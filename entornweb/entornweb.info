@@ -1,0 +1,116 @@
+name = Entorn Web
+description = Diputació de Tarragona install profile.
+version = 7.x-1.0
+core = 7.x
+files[] = entornweb.profile
+
+; Core
+dependencies[] = image
+dependencies[] = path
+dependencies[] = locale
+dependencies[] = search
+
+; Core - Field
+dependencies[] = field_ui
+
+; Core - Field types
+dependencies[] = file
+dependencies[] = list
+dependencies[] = options
+dependencies[] = text
+dependencies[] = number
+dependencies[] = rdf
+
+; Core - Content
+dependencies[] = block
+dependencies[] = menu
+dependencies[] = taxonomy
+dependencies[] = filter
+dependencies[] = diff
+
+; Core - UI
+dependencies[] = help
+;dependencies[] = toolbar
+dependencies[] = contextual
+dependencies[] = shortcut
+
+
+; Contrib - Tools
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = libraries
+dependencies[] = strongarm
+dependencies[] = module_filter
+dependencies[] = views
+dependencies[] = wysiwyg
+
+; Custom
+dependencies[] = entity
+;dependencies[] = entity_tokens
+dependencies[] = breakpoints
+dependencies[] = color
+dependencies[] = color_field
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = ds_ui
+dependencies[] = ds_extras
+
+dependencies[] = field_group
+dependencies[] = link
+dependencies[] = linkit
+dependencies[] = jquery_update
+dependencies[] = l10n_update
+
+dependencies[] = menu_block
+dependencies[] = menu_position
+dependencies[] = eu_cookie_compliance
+
+; Idiomes
+dependencies[] = entity_translation
+dependencies[] = title
+dependencies[] = i18n
+dependencies[] = i18n_path
+dependencies[] = i18n_string
+dependencies[] = i18n_translation
+dependencies[] = variable
+dependencies[] = i18n_variable
+dependencies[] = variable_store
+dependencies[] = variable_admin
+dependencies[] = variable_views
+dependencies[] = transliteration
+
+dependencies[] = migrate
+dependencies[] = pathauto
+dependencies[] = php
+
+
+; Admin
+dependencies[] = navbar
+dependencies[] = responsive_preview
+dependencies[] = simplified_menu_admin 
+dependencies[] = views_bulk_operations
+dependencies[] = views_ui
+dependencies[] = admin_views
+;dependencies[] = quickedit
+dependencies[] = bundle_copy
+
+dependencies[] = webform
+dependencies[] = boxes
+dependencies[] = bundle_copy
+dependencies[] = addthis
+
+; Deploy
+dependencies[] = entornweb_deploy
+dependencies[] = entornweb_wysiwyg
+
+; Entorn Web - Features
+dependencies[] = page
+dependencies[] = article
+dependencies[] = home
+dependencies[] = extras
+
+; Blocs
+;dependencies[] = entornweb_about
+dependencies[] = entornweb_lib
+
+
